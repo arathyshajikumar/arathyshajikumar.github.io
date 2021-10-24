@@ -1,1 +1,204 @@
+div
+{
+    border-radius: 5px;
+    }
+.header
+{
+    border: 2px solid rgb(50, 47, 47);
+    z-index: 1;
+    /* gives a stack order of 1 */
+    /* Source: https://www.w3schools.com/css/css_z-index.asp */
+    background-color: #b7ebf5;
+    padding: 5px;
+    }
+/* Adding responsive media queries */
+/* When the width of this document is 800 pixels or less, the background-color is "pink", otherwise it is "lightblue". */ 
+/* Source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */  
+@media only screen and (max-width: 800px) {
+    .header {
+        background-color: rgb(247, 148, 217);
+        }
+      }        
+#name{/* Source: https://www.w3schools.com/css/css_text.asp */
+    text-align:left;
+    font-size: 25px;
+    font-family: 'Times New Roman',serif;
+    color: #000000;
+}
+#email{
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman',serif;
+    color: #4641d6;
+}
+#Linkedin-id{
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman',serif;
+    color: #4641d6;
+}
+a:hover {
+    font-weight: bold;
+}
+/* Add a black background color to the top navigation */
+.nav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+/* Style the links inside the navigation bar */  
+.nav a {
+    float: left;
+    color: #f50c0c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Change the color of links on hover */  
+.nav a:hover {
+    background-color: rgb(248, 233, 24);
+    color: black;
+}
+/* Add a color to the active/current link */  
+.nav a.active {
+    background-color: #f03ca5;
+    color: rgb(4, 3, 3);
+}
+
+.right
+{
+    float: left;
+    margin-top: 5px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #ffffff;
+    }
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+/* Adding responsive media queries */
+/* When the width of this document is 800 pixels or less, the background-color is "rgba(216, 235, 90, 0.627", otherwise it is "white". */ 
+/* Source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */ 
+
+@media only screen and (max-width: 800px) {
+    .right {
+          background-color: rgba(216, 235, 90, 0.627);
+        }
+      }        
+h3
+{
+    text-decoration: underline;
+    }
+.position-title
+{
+    font-weight: bold;
+    }    
+.position-title2
+{
+    font-weight: bold;
+    }        
+#about-project
+{
+    padding: 1px;
+    }
+#about-project2
+{
+    padding: 1px;
+    }    
+table /* Source: https://www.w3schools.com/css/css_table.asp */
+{
+    border: 1px  black;
+    }
+th, td 
+{
+        text-align: left;
+        padding: 8px;
+    }
+/* For zebra-striped tables, used the nth-child() selector */ 
+/* Source:https://www.w3schools.com/css/css_table_style.asp */    
+tr:nth-child(even){background-color: #f2f2f2}
+
+#heading
+{
+      background-color: #4ee7ff;
+      color: white;
+    }         
+td
+{
+    padding: 2px;
+    border: 1px solid #f74848;
+    }
+#course-name
+{
+    font-weight:bold;
+    }    
+h6
+{
+    text-align: right; 
+    margin-right: 20px; 
+    color:rgb(50, 50, 49); 
+}
+#event-name1
+{
+    font-weight:bold;
+    }
+#event-name2
+{
+    font-weight:bold;
+    } 
+#event-name3
+{
+    font-weight:bold;
+    }         
+#application-name
+{
+    font-weight:bold;
+    color: red;
+    }  
+#language-name
+{
+    font-weight:bold;
+    color: red;
+    }      
+#os-name
+{
+    font-weight:bold;
+    color: red;
+    }          
+#referencer-name1
+{
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    } 
+#referencer-name2
+{
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    } 
+#referencer-name3
+{
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    } 
+#override1
+{
+    color: rgb(0, 0, 0);
+        font-weight: normal;
+} 
+.referencer-info1
+{
+    color: blue;
+    font-weight: bold;
+}
 
